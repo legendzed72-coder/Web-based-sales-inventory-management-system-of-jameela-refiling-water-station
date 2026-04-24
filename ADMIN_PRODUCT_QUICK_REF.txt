@@ -1,0 +1,176 @@
+# AQUAPAY Admin - Product Management Quick Reference
+
+## 🎯 Quick Access
+**Dashboard → Products** (sidebar link with 📦 icon)
+
+---
+
+## 📋 What You Can Do
+
+### ✏️ Edit Product Details
+Edit ANY product value:
+- ✅ Product Name
+- ✅ Price (PHP)
+- ✅ Stock Quantity
+- ✅ Description
+- ✅ Category
+- ✅ Product Image
+
+### 🖼️ Upload/Change Images
+- Supported: JPG, PNG, GIF, WebP
+- Old image auto-deleted
+- New name prevents conflicts
+
+### ➕ Add New Products
+Create products from scratch with all details
+
+### ❌ Delete Products
+Remove products (image auto-cleaned)
+
+---
+
+## 📊 Product List View
+
+See at a glance:
+- Product image thumbnail
+- Product name & price
+- Current stock level
+- Category
+- Description (first 100 chars)
+- Quick action buttons
+
+---
+
+## 🚀 How to Use
+
+### Add Product
+```
+1. Click "+ Add New Product"
+2. Fill in name, price, stock
+3. Add description & category (optional)
+4. Upload image (optional)
+5. Click "Save Product"
+```
+
+### Edit Product
+```
+1. Find product in list
+2. Click "Edit"
+3. Change any field
+4. Upload new image (optional) or keep current
+5. Click "Update Product"
+```
+
+### Delete Product
+```
+1. Find product in list
+2. Click "Delete"
+3. Confirm deletion
+Done! Image auto-removed
+```
+
+---
+
+## 📸 Image Upload
+
+**Formats Accepted:** JPG | PNG | GIF | WebP
+
+**Tips:**
+- Use clear, high-quality images
+- 300x300px or larger recommended
+- Square aspect ratio (1:1) works best
+
+**Supported Actions:**
+- ✅ Add new image when creating product
+- ✅ Upload new image when editing
+- ✅ Keep existing image (skip upload)
+- ✅ Auto-delete old image on replacement
+- ✅ Auto-generate unique filename
+
+---
+
+## 🔒 Security Info
+
+- ✅ Only admins can access
+- ✅ Images protected from PHP execution
+- ✅ Directory listing disabled
+- ✅ Safe database operations
+
+---
+
+## 💡 Pro Tips
+
+1. **Use Clear Names:** "Water Jug 20L" not "WJ"
+2. **Stock Management:** Set to 0 to hide temporarily
+3. **Categories:** Keep naming consistent
+4. **Images:** Update regularly for appeal
+5. **Prices:** Easy to change anytime
+6. **Monitor Stock:** Edit after orders completed
+
+---
+
+## ⚙️ Linked Features
+
+Products managed here appear in:
+- 🛒 **User Store** - customers see & purchase
+- 📊 **Reports** - product count shown
+- 📦 **Orders** - customer orders tracked
+
+---
+
+## 🔍 Find Products
+
+**All products listed on Products page**
+- Sort by: Name (default)
+- Filter: (coming soon)
+- Search: (coming soon)
+
+---
+
+## ❓ Need Help?
+
+**Can't access Products menu?**
+→ Ensure logged in as admin
+
+**Image won't upload?**
+→ Check format: JPG, PNG, GIF, WebP
+
+**Changes not saving?**
+→ Fill required fields (name, price, stock)
+
+**See old image?**
+→ Clear browser cache (Ctrl+F5)
+
+---
+
+## 📝 Form Fields Reference
+
+| Field | Required? | Type | Example |
+|-------|-----------|------|---------|
+| Name | YES | Text | Water Jug 20L |
+| Price | YES | Number | 20.00 |
+| Stock | YES | Number | 100 |
+| Description | NO | Text | Refillable water jug |
+| Category | NO | Text | containers |
+| Image | NO | File | product.jpg |
+
+---
+
+## 🎨 Where Products Show
+
+**Customer View:**
+- User Dashboard (Store section)
+- Product cards with:
+  - Image
+  - Name & price
+  - Stock level
+  - Buy button
+
+**Admin View:**
+- Products module (list & details)
+- Store module (test view)
+- Can edit directly from list
+
+---
+
+**Last Updated:** March 1, 2026 ✅

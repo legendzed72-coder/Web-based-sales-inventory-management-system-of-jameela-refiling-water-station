@@ -1,0 +1,8 @@
+# Restrict access to image files only
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps|shtml|phar)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Prevent directory listing
+Options -Indexes
